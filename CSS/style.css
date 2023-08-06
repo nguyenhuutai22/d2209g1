@@ -1,0 +1,158 @@
+/* CSS Document */
+.header {
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+}
+.logo img {
+  width: 120px;
+
+}
+.navigation ul {
+  list-style: none;
+}
+.navigation li {
+  margin: 0 24px;
+}
+.navigation li a {
+  color: white;
+  text-decoration: none;
+}
+.navigation li a:hover {
+  color: red;
+}
+.banner {
+  height: 70vh;
+  overflow: hidden;
+  position: relative;
+}
+.content h1 {
+  font-size: 48px;
+}
+.banner video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content {
+  color: white;
+  position: absolute;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.content p {
+  font-size: 20px;
+  margin: 4px 0 40px;
+}
+.btn {
+  color: white;
+  background: #3C74CB;
+  text-decoration: none;
+  padding: 16px 40px;
+}
+.btn:hover {
+  opacity: .8;
+}
+/*banner*/
+.services{
+  padding: 100px 0;
+  padding: 100px 0;
+  background: url("../img/mau-background-xanh-den-cho-powerpoint_035427893.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.services h1 {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.card {
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 4px 25px rgba(152, 152, 152, 0.25);
+}
+.hinh-anh {
+  height: 300px;
+  overflow: hidden
+}
+.hinh-anh img {
+  height: 100%;
+}
+.noi-dung {
+  padding: 24px;
+}
+.noi-dung p {
+  margin: 8px 0 32px;
+}
+.icon a {
+  color: white;
+  font-size: 20px;
+}
+h3 {
+  font-size: 40px;
+color: aqua;
+}
+h2 {
+  font-size: 27px;
+color: #27A9EA;
+}
+H7{
+	font-size: 20px; 
+	color: white
+}
+p3{
+	color: white;
+}
+
+b1 {
+  color: #48A2D4;
+}
+b2{
+	color: aqua;
+}
+h1 {
+  font-size: 30px;
+}
+.hinhanh {
+  background: grey;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 20px;
+  border: white 1px solid
+}
+.hinhanh img {
+  width: 150%;
+}
+.section-5 {
+  width: 100%;
+  height: auto;
+  min-height: 900px;
+  background: #181A11F;
+  padding-top: 80px
+}
+.section-5 h1 {
+  color: black;
+  text-align: center;
+}
+.noidung img {
+  width: 100%;
+}
+.noidung button {
+  width: 150px;
+  height: 50px;
+  background: none;
+  border: solid blue 2px;
+  color: aqua;
+}
+.vi-du{
+	padding: 100px 0;
+	background: url("../img/1319175.jpg"),url("../img/77ef24b42fcecae4ba74fa68137f3e43.png"),black;
+	background-repeat: no-repeat;
+	background-size: 500px,140px;
+	background-position: center, right;
+}
